@@ -168,8 +168,9 @@ color:#fff !important;
     color: #fff;
 }
 ul.nav.navbar-nav {
-    margin-left: 99px;
+    /* margin-left: 99px; */
 	padding-top: 6px;
+    float: right;
 }
 .navbar-nav>li {
     float: left;
@@ -485,8 +486,7 @@ p.move {
 	margin:0;
 }
 .wthree_l {
-    margin-top: 30px;
-	    padding: 2em;
+	    padding: 1em;
 }
 .wthree_r {
     margin-top:0px;
@@ -665,7 +665,7 @@ h3.title-w3-agileits.two {
 #testimonial{
 	background: #12345f;
 }
-#testimonial,.inner_section_w3ls,.about-w3layouts-agileinfo,#blog,{
+#testimonial,.inner_section_w3ls,.about-w3layouts-agileinfo,#blog{
      padding:5em 0;
 }
 .banner-bottom{
@@ -698,6 +698,23 @@ h3.title-w3-agileits.two {
 .contact-form {
     padding: 3em;
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contact-us{
+    height: 430px;
+    padding: 3em;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-us p{
+    color: #fff;
+    padding: 1em 0;
+}
+.contact-us p a{
+    color: #fff;
 }
 .contact-form h4{
 	margin-bottom:2em;
@@ -781,6 +798,16 @@ h3.title-w3-agileits.two {
     border: 4px solid #fff;
   
 }
+.map-grid a{
+    display: block;
+    width: 100%;
+    height: 430px;
+}
+.map-grid a img{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 .map-grid iframe{
     width: 100%;
     height:430px;
@@ -807,6 +834,32 @@ h3.title-w3-agileits.two {
     font-weight: 500;
     margin-bottom: 10px;
     letter-spacing: 1px;
+}
+.book-form .btn-ccc{
+    background-color: #009688;
+    color: #fff;
+    padding: 0.5em 3em;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    font-weight: 700;
+    border: none;
+    -webkit-appearance: none;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 1.4em;
+
+}
+.book-form .btn-ccc:hover {
+    background-color: #eab208;
+    color: #fff;
 }
 .w3ls_frmrt {
 	background:url(../images/testimonial.jpg) 0px 0px  no-repeat;
